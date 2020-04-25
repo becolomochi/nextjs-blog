@@ -44,3 +44,12 @@ export async function getStaticProps() {
     }
   }
 }
+
+// getServerSidePropsの解説 https://nextjs.org/docs/basic-features/data-fetching#getserversideprops-server-side-rendering
+// export async function getServerSideProps(context) {
+//   return {
+//     props: {
+//       // props for your component
+//     }
+//   }
+// }
